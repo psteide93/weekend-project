@@ -51,3 +51,22 @@ li + li{
     
 }
 
+h2{
+    margin-top: 16px;
+    margin-left: 16px;
+    color: white;
+    font-size: 32px;
+}
+    
+
+img{
+    transform: rotate(90deg);
+    width: 400px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 16px;
+    gap: 2em;
+}
