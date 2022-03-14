@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Supermercado One', cursive;
+    background-color: slategray;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(129, 28%, 29%);
+    padding: 24px;
+}
+
+h1{
+    font-size: 36px;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav a:hover{
+    color: slategray;
+}
+
+li + li{
+    margin-left: 18px;
+}
+
+.andy::before{
+    content: " | ";
+    margin-right: 18px;
+    font-size: 24px;
+    color: white;
+    
+}
+
+#Andy {
+    padding-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+#Pic1 {
+    grid-row: 1 / span: 1;
+    grid-column: 1 / span 1;
+}
+
